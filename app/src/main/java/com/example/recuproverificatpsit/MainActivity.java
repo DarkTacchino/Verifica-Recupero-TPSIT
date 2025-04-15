@@ -217,8 +217,9 @@ public class MainActivity extends AppCompatActivity {
     // Metodo per mostrare un errore e disabilitare i pulsanti delle attività
     private void mostraErrore(String messaggio) {
         Toast.makeText(this, messaggio, Toast.LENGTH_LONG).show();
-        setAttivitaButtonsEnabled(false);
+        //setAttivitaButtonsEnabled(false);
     }
+
 
     // Metodo per abilitare/disabilitare i pulsanti delle attività
     private void setAttivitaButtonsEnabled(boolean enabled) {
